@@ -6,7 +6,7 @@ urlpatterns = [
     # Tags
     path("tags", TagListView.as_view(), name="tag_list"),
     path("tags/<int:pk>", TagDetailsView.as_view(), name="tag_details"),
-    # Tags
+    # Category
     path("categories", CategoryListView.as_view(), name="category_list"),
     path("categories/<int:pk>", CategoryDetailsView.as_view(), name="category_details"),
     # Items
